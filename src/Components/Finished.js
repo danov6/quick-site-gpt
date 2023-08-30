@@ -3,7 +3,7 @@ import React from 'react'
 export function Finished({ answers, startOver, submitSettings }) {
     return (
         <>
-            <h3>Here were your selections. Please confirm before submitting:</h3>
+            <h3 className="confirmtitle">Here were your selections. Please confirm before submitting:</h3>
             <table>
                 <tbody>
                     {answers.map((a, key) => {

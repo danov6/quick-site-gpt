@@ -64,7 +64,8 @@ body {
   text-decoration: underline;
 }
 .container {
-  width: 35vw;
+  width: 55vw;
+  min-height: 40vh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -97,4 +98,8 @@ body {
 }
 #home .generate {
   margin-top: 2em;
+}
+#home h3.confirmtitle {
+  padding: 0em 3em;
+  text-align: center;
 }
