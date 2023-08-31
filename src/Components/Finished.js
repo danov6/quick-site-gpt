@@ -11,7 +11,7 @@ export function Finished({ answers, startOver, submitSettings }) {
                     })}
                 </tbody>
             </table>
-            <button onClick={submitSettings} className="generate">Generate HTML Source Code</button>
+            <button onClick={submitSettings} className="generate">Show examples</button>
             <button onClick={startOver} className="startover">Start Over</button>
         </>
     )

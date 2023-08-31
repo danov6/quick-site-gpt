@@ -7,7 +7,7 @@ export function Home() {
   const [ page, setPage ] = useState(0);
   const [ answers, setAnswers ] = useState([]);
   const [loading, setLoading ] = useState(false);
-  
+
   const handleAnswers = (ans) => {
     setAnswers([
         ...answers,
@@ -29,7 +29,6 @@ export function Home() {
   const submitSettings = () => {
 
   };
-  console.log(answers)
   return (
     <div id="home">
         <h1>Website GPT</h1>
